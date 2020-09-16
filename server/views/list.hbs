@@ -1,0 +1,24 @@
+<h1>Users</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>F_name</th>
+        <th>L_name</th>
+        <th>Date_Of_Birth</th>
+        <th>E_mail</th>
+        <th>Phone</th>
+        <th>Password</th>
+    </tr>
+     {{#each data}}
+    <tr>
+        <td>{{this.Emp_id}}</td>
+        <th>{{this.First_Name}}</th>
+        <th>{{this.Last_Name}}</th>
+        <th>{{this.Date_Of_Birth}}</th>
+        <th>{{this.e_mail}}</th>
+        <th>{{this.phone}}</th>
+        <th>{{this.pass}}</th>
+    </tr>
+    {{/each}}
+</table>
