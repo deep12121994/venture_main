@@ -59,8 +59,9 @@ export default class LogIn extends Component {
                     </div>
                  
                     <button type="submit" className="button">Log In</button>
+                    <button type="submit" className="button">Registration</button>
                     <p className="forgot-password text-right">
-                        <a href="#">Forgot password?</a>
+                        <a href="#">New User?</a>
                     </p>
                 </div>
 

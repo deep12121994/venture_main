@@ -4,7 +4,7 @@ class Login extends Component{
     render(){
         return(
             <div>
-                <h3>React SignUp Component</h3>
+                <h3>React Registration Component</h3>
             </div>
         );
     }
