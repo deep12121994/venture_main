@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const orderModel = mongoose.model("orders");
-const orderDetailsModel = mongoose.model("orderDetails");
+const orderDetailsModel = mongoose.model("orderdetails");
 
 exports.order_Registration = (req, res) => {
 
@@ -139,7 +139,7 @@ exports.orderDetails_Registration = (req, res) => {
             mo_Order.save((err, doc) => {
                 if(!err)
                 {
-                    res.redirect("/order/order_details");
+                    res.redirect("/order/order_list");
                 }else{
                     console.log(err);
                     res.send("Error Occured");
